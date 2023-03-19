@@ -49,3 +49,97 @@ header{
     letter-spacing: 2px;
     font-size: 13px;
 }
+
+.header-title{
+    margin-top: 110px;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.header-subtitle-text{
+    display: inline-block;
+    border-left: 1px solid #8c8c8c;
+    padding: 8px 0 8px 20px;
+    color: #8c8c8c;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-bottom: 13px;
+}
+
+.header-title-text{
+    font-size: 90px;
+    font-weight: bold;
+    color: #fff;
+    max-width: 620px;
+}
+
+.join{
+    background-color: #febe02;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 110px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: #1a1a1a;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.header-info-block{
+    direction: flex;
+    justify-content: space-between;
+}
+
+.card-info{
+    max-width: 361px;
+}
+
+.card-info img{
+    display: flex;
+}
+
+.info-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+}
+
+.info-subtitle{
+    font-size: 13px;
+    font-weight: bold;
+    color: #8c8c8c;
+    letter-spacing: 1.5px;
+}
+
+.card-about{
+    max-width: 650px;
+}
+
+.about-desc{
+    max-width: 240px;
+    font-size: 14px;
+    color: #d1d1d1;
+}
+
+.about-subtitle-text{
+    border-left: 1px solid #fff;
+    padding: 8px 0 8px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 13px;
+    display: inline-block;
+}
