@@ -275,7 +275,7 @@ header{
 }
 
 .mob-btn{
-    display: none;
+    display: block;
 }
 
 .footer-row{
